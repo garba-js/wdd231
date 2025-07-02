@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Joseph Garba Samson">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
+
 <body>
-    <h2>testing</h2>
+    <header>
+        <img src="images/Page 2.svg" alt="logo" width="80" height="">
+        <span>Garba Joseph Samson</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section class="abtme">
+            <h2>About me</h2>
+            <p>My name is Garba Joseph Samson. I am a passionate student, creative thinker, and aspiring entrepreneur. I
+                am currently studying Software Development at Brigham Young University–Idaho, where I am learning how to
+                use technology to solve real-life problems. My education is very important to me, and I always look for
+                ways to apply what I learn in practical ways. </p>
+            <p>
+                Outside my studies, I have worked on several projects as a graphic designer and video editor. I have
+                created educational content, designed video courses, and built a growing brand called Doxa Pâtisserie.
+                Through Doxa Pâtisserie, I focus on producing healthier baked goods that are both elegant and enjoyable.
+                It is a brand that reflects my love for creativity, wellness, and adding value to people’s lives.</p>
+            <p>
+                I enjoy learning, building new ideas, and working with others who are passionate about growth and
+                impact. If you are interested in creative design, healthy baking, education, or software development, I
+                would be happy to connect. Let us share ideas, learn from one another, and create something meaningful
+                together.</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/garba.webp" alt="">
+        </section>
+        <section>
+            <h2>Web certificate Courses</h2>
+            <div class="courses">
+                <button id="all-btn">All Courses</button>
+                <button id="wdd-btn">WDD Courses</button>
+                <button id="cse-btn">CSE Courses</button>
+            </div>
+
+            <div id="course-container"></div>
+            <p id="total-credits"></p>
+
+        </section>
+
+    </main>
+    <footer>
+        <nav class="social">
+            <a href="https://web.facebook.com/doxapatisserie">
+                <img src="images/facebook.webp" alt="" loading="lazy">
+            </a>
+            <a href="https://instagram.com/doxa_patisserie">
+                <img src="images/instagram.webp" alt="" loading="lazy">
+            </a>
+            <a href="https://instagram.com/doxa_patisserie">
+                <img src="images/instagram.webp" alt="" loading="lazy">
+            </a>
+
+        </nav>
+        <p>&copy; <span id="currentyear"></span> Garba Joseph Samson | Plateau Sate, Nigeria.
+        </p>
+        <p id="lastModified"></p>
+
+
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box; 
+}
+
+header {
+  display: grid;
+  grid-template-columns: 80px auto 50px;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 0 5px 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.hamburger::before {
+  content: "\2630";
+}
+.hamburger.show::before {
+  content: "\00D7";
+}
+
+/* Navigation bar ________________________*/
+.navigation {
+  display: none;
+}
+
+.navigation.show {
+  display: block;
+}
+
+ul {
+    list-style: none;
+    background-color: #eee;
+    padding:10px ;
+}
+
+li {
+    margin: 10px;
+}
+
+li a {
+    text-decoration:none ;
+}
+
+main h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+/* section ________________________*/
+
+section {
+    background-color: #dad4d4;
+    margin-bottom: 8px;
+}
+
+section h2 {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 5px;
+}
+
+.abtme p {
+  padding: 0 10px;
+}
+
+.photo img {
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Course card section ________________________*/
+.course-card {
+  padding: .5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.courses button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 0;
+}
+
+.completed {
+  background-color: rgb(63, 143, 63);
+  color: #fff;
+}
+
+.not-completed {
+  background-color: rgb(145, 63, 63);
+  color: #fff;
+}
