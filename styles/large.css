@@ -1,0 +1,33 @@
+@media (min-width: 600px) {
+  body {
+    background-color: lightblue;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: auto 300px;
+    gap: 1rem;
+  }
+
+  main h1 {
+    grid-column: 1 / 3;
+  }
+
+  .cert {
+    grid-column: 1 / 3;
+  }
+}

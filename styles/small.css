@@ -30,7 +30,8 @@ header {
 ul {
     list-style: none;
     background-color: #eee;
-    padding:10px ;
+    padding: 0;
+    margin: 5px;
 }
 
 li {
@@ -38,8 +39,19 @@ li {
 }
 
 li a {
+    display: block;
     text-decoration:none ;
+    border-bottom: 1px solid #a6a0a0;
+    padding: .5rem 10px;
+    margin: 0;
 }
+
+.navigation a:hover {
+  background-color: #ddd;
+  width: 100%;
+}
+
+
 
 main h1 {
     margin: 0;
