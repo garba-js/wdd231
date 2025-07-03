@@ -11,6 +11,8 @@ header {
   border-bottom: solid 1px #ddd;
 }
 
+
+
 .hamburger::before {
   content: "\2630";
 }
@@ -61,20 +63,22 @@ main h1 {
 /* section ________________________*/
 
 section {
-    background-color: #dad4d4;
-    margin-bottom: 8px;
+    margin: 5px 1rem 3rem 1rem;
+    padding: 0 0 5px 0;
+    box-shadow: 0 6px 15px 4px rgba(0, 0, 0, 0.15);
 }
 
 section h2 {
-    background-color: black;
-    color: #ddd;
+    background-color: rgba(8, 32, 77, 0.793);
+    color: #fff;
     text-align: center;
     margin: 0 0 10px 0;
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 .abtme p {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .photo img {
@@ -101,17 +105,45 @@ section h2 {
 }
 
 .courses button {
-  background-color: #eee;
+  background-color: rgba(8, 32, 77, 0.263);
   border: none;
-  padding: 5px 0;
+  padding: 16px 0;
+  font-size: 16px;
+  font-style: bold;
 }
 
 .completed {
   background-color: rgb(63, 143, 63);
   color: #fff;
+
 }
 
 .not-completed {
-  background-color: rgb(145, 63, 63);
+  background-color: rgb(219, 195, 195);
+  color: #000;
+}
+
+.cert p {
+  margin-left: 1rem;
+}
+
+
+/* Footer section ________________________*/
+
+footer {
+  background-color:rgba(8, 32, 77, 0.793) ;
   color: #fff;
+  padding: 1rem;
+}
+
+.social {
+  padding: 0 auto;
+}
+
+.social img {
+  width: 30px;
+}
+
+footer p {
+  text-align: center;
 }

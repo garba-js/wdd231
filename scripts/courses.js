@@ -17,7 +17,7 @@ function renderCourses(courseArray) {
     const card = document.createElement("div");
     card.className = `course-card ${course.completed ? 'completed' : 'not-completed'}`;
     card.innerHTML = `
-      <p>${course.title} (${course.subject} ${course.number})</p>
+      <p>${course.subject} ${course.number}</p>
     `;
     container.appendChild(card);
   });
