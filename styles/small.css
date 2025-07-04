@@ -1,5 +1,13 @@
+:root {
+    --background-color: rgba(8, 32, 77, 0.793);; 
+    --primary-color2: green;
+
+   
+}
+
 * {
     box-sizing: border-box; 
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -31,8 +39,8 @@ header {
 
 ul {
     list-style: none;
-    background-color: #eee;
-    padding: 0;
+    background-color: var(--background-color);
+    padding: 5px 0;
     margin: 5px;
 }
 
@@ -46,18 +54,20 @@ li a {
     border-bottom: 1px solid #a6a0a0;
     padding: .5rem 10px;
     margin: 0;
+    color: #fff;
 }
 
 .navigation a:hover {
-  background-color: #ddd;
+  background-color: #fff;
   width: 100%;
+  color: var(--background-color);
 }
 
 
 
 main h1 {
     margin: 0;
-    padding: 10px;
+    padding: 2px 1rem;
 }
 
 /* section ________________________*/
@@ -97,19 +107,15 @@ section h2 {
 .courses {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 1rem;
   align-items: center;
-
-  padding: 2px;
   margin-bottom: 10px;
 }
 
 .courses button {
   background-color: rgba(8, 32, 77, 0.263);
   border: none;
-  padding: 16px 0;
-  font-size: 16px;
-  font-style: bold;
+  padding: 5px 0;
 }
 
 .completed {
@@ -131,19 +137,22 @@ section h2 {
 /* Footer section ________________________*/
 
 footer {
-  background-color:rgba(8, 32, 77, 0.793) ;
-  color: #fff;
-  padding: 1rem;
-}
-
-.social {
-  padding: 0 auto;
-}
-
-.social img {
-  width: 30px;
+    background-color: var(--background-color);
+    padding: 10px 0;
+    margin: 1rem 0;
+    grid-column: 1 / 4;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid rgb(207, 202, 202);
 }
 
 footer p {
-  text-align: center;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.social img {
+    width: 2em;
+    padding: 5px;
 }

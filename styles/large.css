@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   body {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -15,6 +15,10 @@
   .navigation ul {
     display: flex;
   }
+  
+  li a {
+    border-bottom: none;
+  }
 
   main {
     display: grid;
@@ -24,9 +28,25 @@
 
   main h1 {
     grid-column: 1 / 3;
+    margin-top: 16px;
+    background-color: #eee;
+    
   }
 
   .cert {
     grid-column: 1 / 3;
   }
+
+  section {
+    margin: 5px 10px 1rem 10px;
+    padding: 0;
+  }
+
+  .cc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+
 }
