@@ -23,9 +23,11 @@ header {
 
 .hamburger::before {
   content: "\2630";
+  font-size: 1.5rem;
 }
 .hamburger.show::before {
   content: "\00D7";
+  font-size: 1.5rem;
 }
 
 /* Navigation bar ________________________*/
@@ -35,6 +37,10 @@ header {
 
 .navigation.show {
   display: block;
+}
+
+.navigation li.current {
+  background-color: var(--background-color);
 }
 
 ul {
@@ -154,5 +160,5 @@ footer p {
 
 .social img {
     width: 2em;
-    padding: 5px;
+    padding: 2px;
 }
