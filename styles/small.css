@@ -116,14 +116,15 @@ section h2 {
   gap: 1rem;
   align-items: center;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .courses button {
-  background-color: rgba(8, 32, 77, 0.263);
+  background-color: #2aa3c5;
   border: none;
   padding: 10px 0;
-  border: 1px solid #000;
   border-radius: 5px;
+  box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.15);
 }
 
 .completed {
