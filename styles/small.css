@@ -1,5 +1,5 @@
 :root {
-    --background-color: rgba(8, 32, 77, 0.793);; 
+    --background-color: rgba(8, 32, 77, 0.793); 
     --primary-color2: green;
 
    
@@ -121,12 +121,14 @@ section h2 {
 .courses button {
   background-color: rgba(8, 32, 77, 0.263);
   border: none;
-  padding: 5px 0;
+  padding: 10px 0;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .completed {
-  background-color: rgb(63, 143, 63);
-  color: #fff;
+  background-color: rgba(8, 32, 77, 0.441);
+  color: #000;
 
 }
 
