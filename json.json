@@ -1,0 +1,30 @@
+{
+    "family_name": "Garba",
+    "family_moved_in_date": "05/05/25",
+    "people_in_family": 8,
+    "visited_by_bishop": true,
+    "family_members": [
+        {
+        "name": "Garba Joseph",
+        "gender": "Male",
+        "birthdate": "1998-09-21"
+        },
+        {
+        "name": "Garba Peace",
+        "gender": "Female",
+        "birthdate": "1996-09-26"
+        },
+        {
+        "name": "Garba Miriam",
+        "gender": "Female",
+        "birthdate": "1997-09-09"
+        },
+        {
+        "name": "Garba Dinka",
+        "gender": "Male",
+        "birthdate": "2015-09-15"
+        }
+    ]
+    
+}
+
