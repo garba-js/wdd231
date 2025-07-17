@@ -1,12 +1,24 @@
 
 @media (min-width: 768px) {
 
+    
+.thead {
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 1rem;
+}
+
+header {
+    margin: 0 auto;
+}
+
   .hamburger {
     display: none;
   }
 
   .navigation {
     display: block;
+    margin: auto 0;
   }
 
   .navigation ul {
@@ -38,18 +50,17 @@
     display: none;
 }
 
+/* Footer section ________________________*/
+
 
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-/* Footer section ________________________*/
-footer section,
-footer nav {
+.social {
     margin: auto;
-    align-items: center;
+    padding: auto;
 }
 
 

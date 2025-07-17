@@ -1,4 +1,35 @@
-/* Header ________________________*/
+/*  __________Design Brief______________*/
+
+:root {
+  --primary-color: #005F73;
+  --secondary-color: #94D2BD;
+  --background-color: #F6F6F6;
+  --text-color: #1E1E1E;
+  --font-family: 'Poppins', sans-serif;
+}
+
+/*  ______________________________________ Body ______________________________________________*/
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  border: none;
+}
+
+
+
+/* _____________________________________Header_______________________________________________*/
 
 header {
     display: grid;
@@ -29,7 +60,7 @@ header span {
     font-size: 1.5rem;
 }
 
-/* Navigation bar ________________________*/
+/* _____________________________________ Navigation bar_______________________________________________*/
 .navigation {
     display: none;
     margin-bottom: 1rem;
@@ -69,12 +100,20 @@ li a {
     color: var(--background-color);
 }
 
-/* main section ________________________*/
-
+/* _____________________________________Main_______________________________________________*/
 .view-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     margin: 1rem 0;
+}
+
+main {
     padding: 0 1rem;
 }
+
+
+/* grid section____________________________________*/
 
 #directory.grid {
     display: grid;
@@ -86,20 +125,22 @@ li a {
 #directory.grid section {
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 
-/* list section ________________________*/
+/* List section____________________________________*/
+
 #directory.list {
     display: block;
 }
 
 #directory.list section {
-		margin: 0;
-        gap: 5px;
-		padding: 0.25rem;
+	margin: 0;
+    gap: 5px;
+	padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #directory.list section img {
@@ -114,7 +155,8 @@ li a {
 }
 
 .member-card {
-    background-color: #aba8a8;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .member-card img {
@@ -127,10 +169,11 @@ h3 {
 }
 
 
-/* Footer section ________________________*/
+/* _____________________________________footer_______________________________________________*/
+
 
 footer {
-    background-color: rgb(14, 14, 68);
+    background-color: var(--primary-color);
     padding: 10px 0;
     margin: 1rem 0;
     grid-column: 1 / 4;
@@ -142,7 +185,7 @@ footer {
 .a,
 .b {
     text-align: left;
-    padding-left: 1.3rem;
+    margin: 0 1.3rem;
 }
 
 footer p {
