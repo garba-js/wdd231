@@ -1,11 +1,20 @@
 
 @media (min-width: 768px) {
 
-    
+
+:root {
+  --primary-color: #005F73;
+  --secondary-color: #94D2BD;
+  --background-color: #F6F6F6;
+  --text-color: #1E1E1E;
+  --font-family: 'Poppins', sans-serif;
+}
+
+
 .thead {
     display: grid;
-    grid-template-columns: 300px auto;
-    gap: 1rem;
+    grid-template-columns: 280px 1fr;
+    gap: .5rem;
 }
 
 header {
@@ -18,15 +27,18 @@ header {
 
   .navigation {
     display: block;
-    margin: auto 0;
   }
 
   .navigation ul {
     display: flex;
+    margin: 0;
   }
   
   li a {
     border-bottom: none;
+    color: #000000;
+    margin: 0;
+    
   }
 
 
