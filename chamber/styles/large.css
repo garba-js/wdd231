@@ -1,0 +1,59 @@
+
+@media (min-width: 768px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+  
+  li a {
+    border-bottom: none;
+  }
+
+
+
+/* list section ________________________*/
+#directory.list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#directory.list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+		margin: 0;
+        gap: 5px;
+		padding: 0.25rem;
+}
+
+#directory.list section img {
+    display: none;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* Footer section ________________________*/
+footer section,
+footer nav {
+    margin: auto;
+    align-items: center;
+}
+
+
+}
+
+
+

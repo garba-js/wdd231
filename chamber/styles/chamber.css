@@ -1,0 +1,163 @@
+/* Header ________________________*/
+
+header {
+    display: grid;
+    grid-template-columns: 38px auto 50px;
+    gap: 5px;
+    align-items: center;
+    padding: 5px 16px;
+    border-bottom: solid 1px #ddd;
+    margin-top: 1.5rem;
+}
+
+header span {
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+
+}
+
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 1.5rem;
+}
+
+/* Navigation bar ________________________*/
+.navigation {
+    display: none;
+    margin-bottom: 1rem;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation li.current {
+    background-color: var(--background-color);
+}
+
+ul {
+    list-style: none;
+    background-color: var(--background-color);
+    padding: 5px 0;
+    margin: 5px;
+}
+
+li {
+    margin: 10px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #a6a0a0;
+    padding: .5rem 10px;
+    margin: 0;
+    color: #5f5252;
+}
+
+.navigation a:hover {
+    background-color: #fff;
+    width: 100%;
+    color: var(--background-color);
+}
+
+/* main section ________________________*/
+
+.view-toggle {
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+#directory.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    
+}
+
+#directory.grid section {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* list section ________________________*/
+#directory.list {
+    display: block;
+}
+
+#directory.list section {
+		margin: 0;
+        gap: 5px;
+		padding: 0.25rem;
+}
+
+#directory.list section img {
+    display: none;
+}
+
+
+#directory.list .member-card {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.member-card {
+    background-color: #aba8a8;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.member-card p,
+h3 {
+    margin: 8px 0;
+}
+
+
+/* Footer section ________________________*/
+
+footer {
+    background-color: rgb(14, 14, 68);
+    padding: 10px 0;
+    margin: 1rem 0;
+    grid-column: 1 / 4;
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid rgb(207, 202, 202);
+}
+
+.a,
+.b {
+    text-align: left;
+    padding-left: 1.3rem;
+}
+
+footer p {
+    padding: 0;
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.social {
+    margin: 1rem 0;
+}
+
+.social img {
+    width: 2em;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}

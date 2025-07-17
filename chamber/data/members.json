@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Sahara Textiles",
+    "address": "123 Desert Road, Timbuktu",
+    "phone": "+223-555-101",
+    "website": "https://saharatextiles.ml",
+    "image": "garba.webp",
+    "membership": "Gold"
+  },
+  {
+    "name": "Timbuktu Tours",
+    "address": "45 Camel Street, Timbuktu",
+    "phone": "+223-555-202",
+    "website": "https://timbuktutours.ml",
+    "image": "garba.webp",
+    "membership": "Silver"
+  },
+  {
+    "name": "Dune Café",
+    "address": "7 Market Lane, Timbuktu",
+    "phone": "+223-555-303",
+    "website": "https://dunecafe.ml",
+    "image": "garba.webp",
+    "membership": "Member"
+  },
+  {
+    "name": "Dune Café",
+    "address": "7 Market Lane, Timbuktu",
+    "phone": "+223-555-303",
+    "website": "https://dunecafe.ml",
+    "image": "garba.webp",
+    "membership": "Member"
+  },
+  {
+    "name": "Dune Café",
+    "address": "7 Market Lane, Timbuktu",
+    "phone": "+223-555-303",
+    "website": "https://dunecafe.ml",
+    "image": "garba.webp",
+    "membership": "Member"
+  },
+  {
+    "name": "Dune Café",
+    "address": "7 Market Lane, Timbuktu",
+    "phone": "+223-555-303",
+    "website": "https://dunecafe.ml",
+    "image": "garba.webp",
+    "membership": "Member"
+  },
+  {
+    "name": "Dune Café",
+    "address": "7 Market Lane, Timbuktu",
+    "phone": "+223-555-303",
+    "website": "https://dunecafe.ml",
+    "image": "garba.webp",
+    "membership": "Member"
+  }
+  
+]
+

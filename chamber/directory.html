@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Directory of members of the Timbuktu Chamber of Commerce. Connect with businesses in your community." />
+    <meta name="author" content="Your Full Name" />
+
+    <title>Timbuktu Chamber | Member Directory</title>
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/chamber.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce Directory" />
+    <meta property="og:description"
+        content="Explore local businesses in Timbuktu through our Chamber of Commerce directory." />
+    <meta property="og:image" content="https://your-github-username.github.io/wdd231/chamber/images/og-image.jpg" />
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html" />
+    <meta property="og:type" content="website" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo" width="100%">
+        <span>Timbuktu Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </section>
+
+        <section id="directory" class="grid"></section>
+    </main>
+
+
+    <footer>
+        <section class="a">
+            <p>Timbuktu Chamber of Commerce</p>
+            <p>10 Rue De La Paix</p>
+            <p>Timbuktu, Mail 999</p>
+            <p>infor@timbuktucc.org</p>
+            <p>(223) 555-2300</p>
+        </section>
+        <nav class="social">
+            <a href="https://github.com/garba-js">
+                <img src="images/github-mark-white.png" alt="Garba Js GitHub Profile" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com/in/garba-js/">
+                <img src="images/linkedin_logo.png" alt="Garba Js LinkedIn Profile" loading="lazy">
+            </a>
+            <a href="https://web.facebook.com/garbajs">
+                <img src="images/facebook_logo.png" alt="Garba Js Facebook Profile" loading="lazy">
+            </a>
+        </nav>
+        <section class="b">
+            <p>WDD231 Class Project</p>
+            <P>Garba Joseph Samson</P>
+            <p>&copy; <span id="currentyear"></span> Timbuktu Chamber of Commerce
+            </p>
+            <p id="lastModified"></p>
+        </section>
+
+
+    </footer>
+</body>
+
+</html>
