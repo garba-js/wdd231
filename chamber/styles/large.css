@@ -14,8 +14,8 @@
 .thead {
     display: grid;
     grid-template-columns: 280px 1fr;
-    gap: .5rem;
 }
+
 
 header {
     margin: 0 auto;

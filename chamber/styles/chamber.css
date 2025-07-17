@@ -61,6 +61,10 @@ header span {
 }
 
 /* _____________________________________ Navigation bar_______________________________________________*/
+.thead {
+    border-bottom: solid 1px #cdcccc;
+}
+
 .navigation {
     display: none;
     margin-bottom: 1rem;
@@ -111,6 +115,7 @@ li a {
 .view-toggle button {
     font-size: 1.10rem;
     font-weight: 600;
+    
 }
 
 
