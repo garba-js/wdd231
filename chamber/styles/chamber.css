@@ -103,6 +103,14 @@ li a {
 }
 
 /* _____________________________________Main_______________________________________________*/
+
+main h1 {
+    margin-bottom: 0 ;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--text-color);
+    background-color: #eee;
+}
+
 .view-toggle {
     display: grid;
     grid-template-columns: 1fr 1fr;
