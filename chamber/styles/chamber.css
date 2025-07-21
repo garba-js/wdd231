@@ -41,6 +41,10 @@ header {
     margin-top: 1.5rem;
 }
 
+.hlogo {
+    width: 100%;
+}
+
 header span {
     font-size: 14px;
     margin: 0;
