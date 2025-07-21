@@ -111,6 +111,7 @@ main h1 {
     border-bottom: 1px solid var(--primary-color);
     color: var(--text-color);
     background-color: #eee;
+    padding-left: 10px;
 }
 
 .view-toggle {
