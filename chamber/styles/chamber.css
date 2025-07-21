@@ -110,8 +110,13 @@ li a {
 }
 
 .view-toggle button {
-    font-size: 1.10rem;
+    font-size: 1.20rem;
     font-weight: 600;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
 main {
