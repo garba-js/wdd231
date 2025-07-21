@@ -1,7 +1,7 @@
 [
   {
     "name": "OPay",
-    "address": "Alexander House, Plot 9, Ikeja, Lagos State",
+    "address": "Alexander House, Ikeja, Lagos State",
     "phone": "0700 888 8329",
     "website": "opayweb.com",
     "image": "opay_logo.webp",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Meta Platforms, Inc.",
-    "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
+    "address": "1 Hacker Way, Menlo Park, USA",
     "phone": "+223-555-202",
     "website": "facebook.com",
     "image": "facebook_plogo.webp",
@@ -17,7 +17,7 @@
   },
   {
     "name": "WhatsApp Messenger",
-    "address": "WhatsApp LLC, 1 Meta Way, United States of America",
+    "address": "WhatsApp LLC, 1 Meta Way, USA",
     "phone": "+223-555-303",
     "website": "WhatsApp.com",
     "image": "whatsapp_logo.webp",
@@ -25,7 +25,7 @@
   },
   {
     "name": "VScode",
-    "address": "One Microsoft Way, Redmond, WA 98052, USA",
+    "address": "One Microsoft Way, Redmond, USA",
     "phone": "+223-555-303",
     "website": "vscode.com",
     "image": "vscode.webp",
@@ -41,7 +41,7 @@
   },
   {
     "name": "LinkedIn",
-    "address": "1000 W Maude Avenue, Sunnyvale, United States",
+    "address": "1000 W Maude Avenue, Sunnyvale, USA",
     "phone": "(650) 687-3600",
     "website": "linkedin.com",
     "image": "linkedin_logo.webp",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Microsoft",
-    "address": "One Microsoft Way, Redmond, WA 98052, USA",
+    "address": "One Microsoft Way, Redmond, USA",
     "phone": "(425) 882-8080",
     "website": "microsoft.com",
     "image": "microsoft.webp",
