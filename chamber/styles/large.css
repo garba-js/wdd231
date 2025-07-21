@@ -1,27 +1,26 @@
-
 @media (min-width: 768px) {
-:root {
-  --primary-color: #005F73;
-  --secondary-color: #94D2BD;
-  --background-color: #F6F6F6;
-  --text-color: #1E1E1E;
-  --font-family: 'Poppins', sans-serif;
-}
+  :root {
+    --primary-color: #005F73;
+    --secondary-color: #94D2BD;
+    --background-color: #F6F6F6;
+    --text-color: #1E1E1E;
+    --font-family: 'Poppins', sans-serif;
+  }
 
   body {
     max-width: 1200px;
     margin: 0 auto;
   }
 
-.thead {
+  .thead {
     display: grid;
     grid-template-columns: 280px 1fr;
-}
+  }
 
 
-header {
+  header {
     margin: 0 auto;
-}
+  }
 
   .hamburger {
     display: none;
@@ -37,7 +36,7 @@ header {
     display: flex;
     margin: 0;
   }
-  
+
   li a {
     border-bottom: none;
     color: #000000;
@@ -48,65 +47,64 @@ header {
     justify-self: end;
   }
 
-/* grid section ________________________*/
-#directory.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  /* grid section ________________________*/
+  #directory.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
 
-/* list section ________________________*/
-#directory.list {
+  /* list section ________________________*/
+  #directory.list {
     display: flex;
     flex-direction: column;
 
-}
+  }
 
-#directory.list section {
+  #directory.list section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-		margin: 0;
+    margin: 0;
     gap: 10px;
-		padding: 0.25rem 1rem;
-        
+    padding: 0.25rem 1rem;
 
-}
 
-#directory.list section img {
+  }
+
+  #directory.list section img {
     display: none;
-}
-#directory.list section .badge {
-    display: none;
-}
+  }
 
-#directory.list section:nth-child(odd) {
+  #directory.list section .badge {
+    display: none;
+  }
+
+  #directory.list section:nth-child(odd) {
     background-color: #00607362;
-    color: white; /* optional, for contrast */
-}
+    color: white;
+    /* optional, for contrast */
+  }
 
-#directory.list section:nth-child(even) {
+  #directory.list section:nth-child(even) {
     background-color: white;
     color: var(--primary-color);
-}
+  }
 
 
-/* Footer section ________________________*/
+  /* Footer section ________________________*/
 
 
-footer {
+  footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+  }
 
-.social {
+  .social {
     margin: auto;
-}
+  }
 
 
 }
-
-
-

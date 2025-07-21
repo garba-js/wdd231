@@ -1,30 +1,32 @@
 /*  __________Design Brief______________*/
 
 :root {
-  --primary-color: #005F73;
-  --secondary-color: #94D2BD;
-  --background-color: #F6F6F6;
-  --text-color: #1E1E1E;
-  --font-family: 'Poppins', sans-serif;
+    --primary-color: #005F73;
+    --secondary-color: #94D2BD;
+    --background-color: #F6F6F6;
+    --text-color: #1E1E1E;
+    --font-family: 'Poppins', sans-serif;
 }
 
 /*  ______________________________________ Body ______________________________________________*/
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
 }
 
-h1, h2, h3 {
-  color: var(--primary-color);
+h1,
+h2,
+h3 {
+    color: var(--primary-color);
 }
 
 button {
-  background-color: var(--secondary-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
-  border: none;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    border: none;
 }
 
 /* _____________________________________Header_______________________________________________*/
@@ -87,10 +89,10 @@ li a {
     width: 100%;
     text-decoration: none;
     border-bottom: 1px solid #a6a0a0;
-    padding: .5rem ;
+    padding: .5rem;
     margin: 0;
     color: var(--text-color);
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .current li.active {
@@ -105,7 +107,7 @@ li a {
 /* _____________________________________Main_______________________________________________*/
 
 main h1 {
-    margin-bottom: 0 ;
+    margin-bottom: 0;
     border-bottom: 1px solid var(--primary-color);
     color: var(--text-color);
     background-color: #eee;
@@ -159,9 +161,9 @@ main {
 }
 
 #directory.list section {
-	margin: 0;
+    margin: 0;
     gap: 5px;
-	padding: 1rem;
+    padding: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
