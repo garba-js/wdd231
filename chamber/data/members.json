@@ -1,26 +1,26 @@
 [
   {
-    "name": "Sahara Textiles",
-    "address": "123 Desert Road, Timbuktu",
-    "phone": "+223-555-101",
-    "website": "https://saharatextiles.ml",
-    "image": "garba.webp",
+    "name": "OPay",
+    "address": "Alexander House, Plot 9, Dr. Nurudeen Olowopopo Avenue, Alausa, Ikeja, Lagos State",
+    "phone": "0700 888 8329",
+    "website": "https://www.opayweb.com/",
+    "image": "opay_logo.webp",
     "membership": "Gold"
   },
   {
-    "name": "Timbuktu Tours",
-    "address": "45 Camel Street, Timbuktu",
+    "name": "Meta Platforms, Inc.",
+    "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
     "phone": "+223-555-202",
-    "website": "https://timbuktutours.ml",
-    "image": "garba.webp",
+    "website": "https://www.facebook.com",
+    "image": "facebook_plogo.webp",
     "membership": "Silver"
   },
   {
-    "name": "Dune Café",
-    "address": "7 Market Lane, Timbuktu",
+    "name": "WhatsApp Messenger",
+    "address": "WhatsApp LLC, 1 Meta Way, Menlo Park, California 94025, United States of America",
     "phone": "+223-555-303",
-    "website": "https://dunecafe.ml",
-    "image": "garba.webp",
+    "website": "https://WhatsApp.com",
+    "image": "whatsapp_logo.webp",
     "membership": "Member"
   },
   {

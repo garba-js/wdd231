@@ -115,7 +115,6 @@ li a {
 .view-toggle button {
     font-size: 1.10rem;
     font-weight: 600;
-    
 }
 
 
@@ -128,7 +127,7 @@ main {
 
 #directory.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
     
 }
