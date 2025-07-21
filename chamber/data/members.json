@@ -3,7 +3,7 @@
     "name": "OPay",
     "address": "Alexander House, Plot 9, Dr. Nurudeen Olowopopo Avenue, Alausa, Ikeja, Lagos State",
     "phone": "0700 888 8329",
-    "website": "https://www.opayweb.com/",
+    "website": "opayweb.com",
     "image": "opay_logo.webp",
     "membership": "Gold"
   },
@@ -11,7 +11,7 @@
     "name": "Meta Platforms, Inc.",
     "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
     "phone": "+223-555-202",
-    "website": "https://www.facebook.com",
+    "website": "facebook.com",
     "image": "facebook_plogo.webp",
     "membership": "Silver"
   },
@@ -19,40 +19,40 @@
     "name": "WhatsApp Messenger",
     "address": "WhatsApp LLC, 1 Meta Way, Menlo Park, California 94025, United States of America",
     "phone": "+223-555-303",
-    "website": "https://WhatsApp.com",
+    "website": "WhatsApp.com",
     "image": "whatsapp_logo.webp",
     "membership": "Member"
   },
   {
-    "name": "Dune Café",
-    "address": "7 Market Lane, Timbuktu",
+    "name": "VScode",
+    "address": "One Microsoft Way, Redmond, WA 98052, USA",
     "phone": "+223-555-303",
-    "website": "https://dunecafe.ml",
-    "image": "garba.webp",
+    "website": "github.com/Microsoft/vscode",
+    "image": "vscode.webp",
     "membership": "Member"
   },
   {
-    "name": "Dune Café",
-    "address": "7 Market Lane, Timbuktu",
-    "phone": "+223-555-303",
-    "website": "https://dunecafe.ml",
-    "image": "garba.webp",
+    "name": "GitHub",
+    "address": " 88 Colin P Kelly Jr St, San Francisco, California 94107",
+    "phone": "877-448-4820",
+    "website": "github.com",
+    "image": "github.webp",
     "membership": "Member"
   },
   {
-    "name": "Dune Café",
-    "address": "7 Market Lane, Timbuktu",
-    "phone": "+223-555-303",
-    "website": "https://dunecafe.ml",
-    "image": "garba.webp",
+    "name": "LinkedIn",
+    "address": "1000 W Maude Avenue, Sunnyvale, CA 94085, United States",
+    "phone": "(650) 687-3600",
+    "website": "linkedin.com",
+    "image": "linkedin_logo.webp",
     "membership": "Member"
   },
   {
-    "name": "Dune Café",
-    "address": "7 Market Lane, Timbuktu",
-    "phone": "+223-555-303",
-    "website": "https://dunecafe.ml",
-    "image": "garba.webp",
+    "name": "Microsoft",
+    "address": "One Microsoft Way, Redmond, WA 98052, USA",
+    "phone": "(425) 882-8080",
+    "website": "microsoft.com",
+    "image": "microsoft.webp",
     "membership": "Member"
   }
   

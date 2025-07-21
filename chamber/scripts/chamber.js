@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3>${member.name}</h3>
         <p>${member.address}</p>
         <p><a href="tel:${member.phone.replace(/\s+/g, '')}">${member.phone}</a></p>
-        <p><a href="${member.website}" target="_blank" rel="noopener">https://www.opayweb.com</a></p>
+        <p><a href="${member.website}" target="_blank" rel="noopener">${member.website}</a></p>
         <p><span class="badge ${member.membership.toLowerCase()}">${member.membership}</span></p>
       `;
       directory.appendChild(card);

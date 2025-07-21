@@ -27,8 +27,6 @@ button {
   border: none;
 }
 
-
-
 /* _____________________________________Header_______________________________________________*/
 
 header {
@@ -48,7 +46,6 @@ header span {
     padding: 0;
 
 }
-
 
 .hamburger::before {
     content: "\2630";
@@ -117,11 +114,9 @@ li a {
     font-weight: 600;
 }
 
-
 main {
     padding: 0 1rem;
 }
-
 
 /* grid section____________________________________*/
 
@@ -130,8 +125,6 @@ main {
     grid-template-columns: 1fr;
     gap: 1rem;
     box-sizing: border-box;
-    margin: 0 .5rem;
-    
 }
 
 #directory.grid section {
@@ -173,6 +166,9 @@ main {
 
 .member-card img {
     width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
 
 .member-card p,
